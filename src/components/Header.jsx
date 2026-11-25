@@ -18,7 +18,7 @@ export default function Header() {
           <a href="#tickets" className="btn-primary !py-2.5 hidden md:inline-flex">Get tickets</a>
           <button
             type="button"
-            className="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-black/10 text-ink hover:bg-black/5 md:hidden"
+            className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-black/10 px-3 text-ink hover:bg-black/5 md:hidden"
             aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'}
             aria-expanded={menuOpen}
             aria-controls="mobile-navigation"
@@ -33,6 +33,7 @@ export default function Header() {
                 <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             )}
+            <span className="text-sm font-semibold">{menuOpen ? 'Close' : 'Menu'}</span>
           </button>
         </div>
         {menuOpen && (
