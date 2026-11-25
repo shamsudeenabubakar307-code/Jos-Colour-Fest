@@ -6,7 +6,7 @@ export default function Logo({ id, className = '' }) {
       <span className="block h-12 w-12 shrink-0 overflow-hidden rounded-md">
         <img src={josLogo} alt="Jos Colour Fest logo" className="h-full w-full object-contain" />
       </span>
-      Jos Colour Fest
+      Jos Colour Festival
     </span>
   )
 }
