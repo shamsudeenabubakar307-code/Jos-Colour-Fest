@@ -8,10 +8,10 @@ export default function Hero() {
         <div>
           <p className="mb-4 text-lg font-semibold text-sun">12 to 14 December 2026, Freedom Park, Lagos</p>
           <h1 className="text-5xl font-extrabold leading-[1.02] sm:text-6xl lg:text-7xl">
-            Three days of art, music and food in Lagos.
+            Three days of art, music and food in Jos.
           </h1>
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-white/80">
-            Eko Colour Fest brings dyers, tailors, musicians, poets and cooks together in one park for a weekend built around Nigerian craft.
+            Plateau Colour Fest brings dyers, tailors, musicians, poets and cooks together in one park for a weekend built around Nigerian craft.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#tickets" className="btn-sun">Buy tickets</a>
